@@ -10,6 +10,13 @@ const PlanoAulas = () => {
             <div class="row justify-content-center mb-5 pb-5">
               <div class="col-md-7 text-center heading-section heading-section-white ">
                 <h2>Plano de Aulas</h2>
+                <div class="row justify-content-center mb-5 pb-5">
+                  <div style={{ color: "#fff" }}>
+                    Na seção do plano de aulas, podemos produzir um breve texto
+                    explicando resumidamente o que é e como utilizar, se tiver
+                    como encaixar lá{" "}
+                  </div>
+                </div>
                 <p>
                   <a
                     href="https://vimeo.com/45830194"

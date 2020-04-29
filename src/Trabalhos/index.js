@@ -4,11 +4,11 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Trabalhos = () => {
   return (
     <div>
-      <section class="ftco-section">
+      <section class="ftco-section" id="trabalhoContainer">
         <div class="container-fluid">
             <div class="row no-gutters justify-content-center mb-5 pb-5">
               <div class="col-md-7 text-center heading-section">
-                <span class="subheading">Trabalhos</span>
+                <span class="subheading">Dedicando nosso tempo</span>
                 <h2>Trabalhos Recentes</h2>
               </div>
             </div>

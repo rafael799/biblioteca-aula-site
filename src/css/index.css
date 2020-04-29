@@ -63,3 +63,12 @@
   font-size: 40px;
   color: #fff !important;
 }
+
+.logoBiblioteca {
+  text-align: center;
+  margin-top: -200px; 
+}
+
+@media (max-width: 768px) {
+  .logoBiblioteca {
+    margin-top: 100px; } }

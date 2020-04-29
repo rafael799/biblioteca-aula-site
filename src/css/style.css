@@ -7528,7 +7528,8 @@ h1, h2, h3, h4, h5,
     .home-slider .slider-item .slider-text {
       color: #fff;
       height: calc(100vh - 117px);
-      min-height: 500px; }
+      min-height: 500px;
+      margin-bottom: -174px; }
       .home-slider .slider-item .slider-text h1 {
         font-size: 52px;
         color: #fff;
@@ -7717,6 +7718,40 @@ h1, h2, h3, h4, h5,
     .ftco-section-featured .container .carousel img {
       border: 1px solid #f4f4f5; }
 
+.services .icon-parceiros {
+  width: 209px;
+  height: 198px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+  .services .icon-parceiros.color-1 {
+    background: #eaf8fd; }
+    .services .icon-parceiros.color-1 span {
+      color: #78d5ef; }
+  .services .icon-parceiros.color-2 {
+    background: #ebfdf4; }
+    .services .icon-parceiros.color-2 span {
+      color: #79efb4; }
+  .services .icon-parceiros.color-3 {
+    background: #fce7f1; }
+    .services .icon-parceiros.color-3 span {
+      color: #ee76ad; }
+  .services .icon-parceiros.color-4 {
+    background: #fdf2ea; }
+    .services .icon-parceiros.color-4 span {
+      color: #efac78; }
+      .services .icon-parceiros.color-5 {
+        background: #8ee8bb; }
+        .services .icon-parceiros.color-6 {
+          background: #e2e2c9
+          ; }
+          .services .icon-parceiros.color-7 {
+            background: #fde1a2
+            ; }
+
+          
+
 .services .icon {
   width: 90px;
   height: 90px;
@@ -7849,12 +7884,22 @@ h1, h2, h3, h4, h5,
     margin-bottom: 0; }
 
 .block-3 .image {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat; }
   @media (max-width: 767.98px) {
     .block-3 .image {
       height: 300px; } }
+
+   
+      .react-player {
+        margin-top: 0px;
+      }
+      @media (max-width: 767.98px) {
+        .react-player {
+          margin-top: 0px;
+          width: 300px !important;
+          height: 300px !important; } }
 
 .block-5 {
   overflow: hidden;

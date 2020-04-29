@@ -1,38 +1,37 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import TextLoop from "react-text-loop";
 import ScrollAnimation from "react-animate-on-scroll";
-import Modal from 'react-modal';
-import ReactPlayer from 'react-player'
+import Modal from "react-modal";
+import ReactPlayer from "react-player";
+import logoBiblioteca from "../images/Biblioteca.png";
 
 const customStyles = {
-  content : {
-    top                   : '50%',
-    left                  : '50%',
-    right                 : 'auto',
-    bottom                : 'auto',
-    marginRight           : '-50%',
-    transform             : 'translate(-50%, -50%)',
-    background : '#66000000',
-    border: 'none'
-  }
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    background: "#66000000",
+    border: "none",
+  },
 };
 
-
 const Head = () => {
-  const [modalIsOpen,setIsOpen] = useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
     setIsOpen(true);
-  }
+  };
 
   const afterOpenModal = () => {
     // references are now sync'd and can be accessed.
-    
-  }
+  };
 
-  const closeModal = () =>{
+  const closeModal = () => {
     setIsOpen(false);
-  }
+  };
 
   return (
     <div>
@@ -65,27 +64,27 @@ const Head = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">
+                <a href="#abountContainer" class="nav-link">
                   Quem somos
                 </a>
               </li>
               <li class="nav-item">
-                <a href="contact.html" class="nav-link">
+                <a href="#calendarioContainer" class="nav-link">
                   Calendário
                 </a>
               </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">
+                <a href="#trabalhoContainer" class="nav-link">
                   Trabalhos
                 </a>
               </li>
               <li class="nav-item">
-                <a href="blog.html" class="nav-link">
+                <a href="#parceirosContainer" class="nav-link">
                   Parceiros
                 </a>
               </li>
               <li class="nav-item">
-                <a href="solutions.html" class="nav-link">
+                <a href="#contatoContainer" class="nav-link">
                   Contato
                 </a>
               </li>
@@ -95,31 +94,60 @@ const Head = () => {
       </nav>
 
       <Modal
-          isOpen={modalIsOpen}
-          onAfterOpen={afterOpenModal}
-          onRequestClose={closeModal}
-          style={customStyles}
-          contentLabel="Example Modal">
-          <form>
-            <ReactPlayer url='https://www.youtube.com/watch?v=cEczlv669Oo' playing />
-          </form>
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <form>
+          <ReactPlayer
+            url="https://www.youtube.com/watch?v=cEczlv669Oo"
+            playing
+            class="react-player"
+          />
+        </form>
 
-          <p style={{marginTop:30, textAlign:"center", alignItems:"center", justifyContent:"center"}}>
-            <a class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo">
-              <span class="ion-ios-play mr-2"></span> Quero Fazer Parte
-            </a>
-          </p>
-        </Modal>
+        <p
+          style={{
+            marginTop: 30,
+            textAlign: "center",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <a
+            onClick={closeModal}
+            class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo"
+          >
+            <span class="ion-ios-play mr-2"></span> Quero Fazer Parte
+          </a>
+        </p>
 
-        
+        <p
+          style={{
+            marginTop: 30,
+            textAlign: "center",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <a
+            onClick={closeModal}
+            class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo"
+          >
+            <span class="ion-ios-play mr-2"></span> Fechar Video
+          </a>
+        </p>
+      </Modal>
 
       <section class="home-slider ftco-degree-bg">
         <div class="slider-item">
           <div class="overlay"></div>
           <div class="container">
-            <div class="row slider-text align-items-center justify-content-center">
-              <div class="col-md-10 text-center">
-                <ScrollAnimation animateIn="fadeIn" duration={2}>
+            <ScrollAnimation animateIn="fadeIn" duration={2}>
+              <div class="row slider-text align-items-center justify-content-center">
+                <div class="col-md-10 text-center">
                   <h1 class="mb-4">
                     {" "}
                     <a class="text-fixe">Sempre </a>
@@ -143,11 +171,14 @@ const Head = () => {
                       <span class="ion-ios-play mr-2"></span> Assistir Vídeo
                     </a>
                   </p>
-
-                </ScrollAnimation>
+                </div>
               </div>
+
+              <div class="logoBiblioteca">
+                <img src={logoBiblioteca} width="300" height="250" />
+              </div>
+              </ScrollAnimation>
             </div>
-          </div>
         </div>
       </section>
     </div>

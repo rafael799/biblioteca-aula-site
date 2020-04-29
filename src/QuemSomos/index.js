@@ -7,7 +7,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const QuemSomos = () => {
   return (
     <div>
-      <section class="ftco-section ">
+      <section class="ftco-section " id="abountContainer">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-10 text-center">

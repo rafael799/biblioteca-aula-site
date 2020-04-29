@@ -1,5 +1,5 @@
 import React from "react";
-import logoUFF from "../images/UFF.jpg";
+import logoUFF from "../images/UFF.png";
 import logoFazimento from "../images/fazimento.png";
 import logoAldeia from "../images/aldeia.png";
 import logoNaprocult from "../images/naprocult.png";
@@ -9,7 +9,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Parceiros = () => {
   return (
     <div>
-      <section class="ftco-section testimony-section ftco-degree-bg">
+      <section class="ftco-section testimony-section ftco-degree-bg" id="parceirosContainer">
         <div class="container">
         <ScrollAnimation
         animateIn="bounceInRight"
@@ -41,8 +41,8 @@ const Parceiros = () => {
                 <div class="media block-6 services d-block text-center">
                 
                     <div class="d-flex justify-content-center">
-                      <div class="icon color-1 d-flex justify-content-center mb-3">
-                        <img src={logoUFF} width="50" height="25" />
+                      <div class="icon-parceiros color-1 d-flex justify-content-center mb-3" style={{textAlign:"center",alignItems:"center", justifyContent:"center"}}>
+                        <img src={logoUFF} width="130" height="100" />
                       </div>
                     </div>
                     <div class="media-body p-2">
@@ -60,8 +60,8 @@ const Parceiros = () => {
                 <div class="media block-6 services d-block text-center">
                
                     <div class="d-flex justify-content-center">
-                      <div class="icon color-5 d-flex justify-content-center mb-3">
-                        <img src={logoAldeia} width="50" height="25" />
+                      <div class="icon-parceiros color-5 d-flex justify-content-center mb-3" style={{textAlign:"center",alignItems:"center", justifyContent:"center"}}>
+                        <img src={logoAldeia} width="150" height="110" />
                       </div>
                     </div>
                     <div class="media-body p-2">
@@ -79,8 +79,8 @@ const Parceiros = () => {
                 <div class="media block-6 services d-block text-center">
              
                     <div class="d-flex justify-content-center">
-                      <div class="icon color-2 d-flex justify-content-center mb-3">
-                        <img src={logoUFRJ} width="50" height="25" />
+                      <div class="icon-parceiros color-7 d-flex justify-content-center mb-3" style={{textAlign:"center",alignItems:"center", justifyContent:"center"}}>
+                        <img src={logoUFRJ} width="200" height="150" />
                       </div>
                     </div>
                     <div class="media-body p-2">
@@ -99,8 +99,10 @@ const Parceiros = () => {
                 <div class="media block-6 services d-block text-center">
       
                     <div class="d-flex justify-content-center">
-                      <div class="icon color-3 d-flex justify-content-center mb-3">
-                        <img src={logoNaprocult} width="50" height="25" />
+                      <div class="icon-parceiros color-3 d-flex justify-content-center mb-3" style={{textAlign:"center",alignItems:"center", justifyContent:"center"}}>
+                        <div>
+                           <img src={logoNaprocult} width="200" height="150" />
+                        </div>
                       </div>
                     </div>
                     <div class="media-body p-2">
@@ -116,8 +118,10 @@ const Parceiros = () => {
                 <div class="media block-6 services d-block text-center">
          
                     <div class="d-flex justify-content-center">
-                      <div class="icon color-3 d-flex justify-content-center mb-3">
-                        <img src={logoFazimento} width="50" height="25" />
+                      <div class="icon-parceiros color-6 d-flex justify-content-center mb-3" style={{textAlign:"center",alignItems:"center", justifyContent:"center"}}>
+                      <div>
+                        <img src={logoFazimento} width="200" height="150" />
+                      </div>
                       </div>
                     </div>
                     <div class="media-body p-2">

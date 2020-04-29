@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Contatos = () => {
   return (
     <div>
-      <section class="ftco-section contact-section ftco-degree-bg">
+      <section class="ftco-section contact-section ftco-degree-bg" id="contatoContainer">
         <ScrollAnimation animateIn="fadeIn" duration={2}>
           <div class="container bg-light">
             <div

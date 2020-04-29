@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const calendario = () => {
   return (
     <div>
-      <section class="ftco-section-parallax">
+      <section class="ftco-section-parallax" id="calendarioContainer">
         <div class="parallax-img d-flex align-items-center">
           <div class="container">
             <div class="row d-flex justify-content-center">
