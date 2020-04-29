@@ -1,0 +1,65 @@
+.text-fixe{
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
+
+.title-about-us{
+  color: #404044 !important;
+  font-family: inherit !important;
+  font-size: 10 !important;
+}
+
+.subTitle-about-us {
+  color: #404044 !important;
+  font-family: inherit !important;
+  font-size: 10 !important;
+  margin-bottom: 60px !important;
+}
+
+.subheading {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.text-about {
+  font-size: 18px !important;
+  color: rgba(195, 195, 195, 0.8) !important;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(162, 132, 132, 0.75) !important
+
+}
+
+.imageWork1 {
+  background-image: url('./../images/work-1.jpg');
+}
+
+.imageWork2 {
+  background-image: url('./../images/work-2.jpg');
+}
+
+.imageWork3 {
+  background-image: url('./../images/work-3.jpg');
+}
+
+.imageWork4 {
+  background-image: url('./../images/work-4.jpg');
+}
+
+.imageWork5 {
+  background-image: url('./../images/work-5.jpg');
+}
+
+.titleNumber{
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff !important;
+}
