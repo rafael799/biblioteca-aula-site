@@ -1,5 +1,4 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import logoInstagram from '../images/instagram.png';
 
 const Footer = () => {

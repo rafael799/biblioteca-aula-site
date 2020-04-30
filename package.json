@@ -10,6 +10,7 @@
     "pdf-viewer-reactjs": "^2.0.6",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
     "react-modal": "^3.11.2",
     "react-player": "^1.15.3",

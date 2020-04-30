@@ -8,13 +8,14 @@ import Parceiros from "./../Parceiros/index";
 import PlanoAulas from "./../PlanoAulas/index";
 import Contatos from "./../Contatos/index";
 import Footer from "./../Footer/index";
+import Equipe from "./../Equipe/index";
 
 const Home = () => {
   return (
     <div>
       <Head />
       <QuemSomos />
-      <Calendario />
+      <Equipe />
       <Trabalhos />
       <Beneficiados />
       <Parceiros />

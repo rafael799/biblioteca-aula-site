@@ -82,13 +82,13 @@ const Head = () => {
                 <a class="nav-link">
                   <Link
                     activeClass="active"
-                    to="calendarioContainer"
+                    to="timeContainer"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={1000}
                   >
-                    Calendário
+                    Time
                   </Link>
                 </a>
               </li>
