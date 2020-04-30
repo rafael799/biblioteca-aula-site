@@ -66,9 +66,23 @@
 
 .logoBiblioteca {
   text-align: center;
-  margin-top: -200px; 
+  margin-top: -170px; 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .logoBiblioteca {
     margin-top: 100px; } }
+    @media screen and (max-width: 640px) {
+      .logoBiblioteca {
+        margin-top: 39px; } }
+
+
+.botaoModal {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+            
+
+    

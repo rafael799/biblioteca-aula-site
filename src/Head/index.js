@@ -154,45 +154,36 @@ const Head = () => {
           />
         </form>
 
-        <p
-          style={{
-            marginTop: 30,
-            textAlign: "center",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <a class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo">
-            <span class="ion-ios-play mr-2"></span>
-            <Link
-              activeClass="active"
-              to="contatoContainer"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-              onClick={closeModal}
-            >
-              Quero Fazer Parte
-            </Link>
-          </a>
-        </p>
-
-        <p
-          style={{
-            marginTop: 30,
-            textAlign: "center",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <a
-            onClick={closeModal}
-            class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo"
+        <div  class="botaoModal">
+          <p
+           
           >
-            <span class="ion-ios-play mr-2"></span> Fechar Video
-          </a>
-        </p>
+            <a class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo">
+              <span class="ion-ios-play mr-2"></span>
+              <Link
+                activeClass="active"
+                to="contatoContainer"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                onClick={closeModal}
+              >
+                Quero Fazer Parte
+              </Link>
+            </a>
+          </p>
+
+          <p
+          >
+            <a
+              onClick={closeModal}
+              class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo"
+            >
+              <span class="ion-ios-play mr-2"></span> Fechar Video
+            </a>
+          </p>
+        </div>
       </Modal>
 
       <section class="home-slider ftco-degree-bg">
