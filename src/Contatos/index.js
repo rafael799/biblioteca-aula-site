@@ -1,5 +1,7 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import logoVoltar from "../images/voltar.png";
+import { Link } from "react-scroll";
 
 const Contatos = () => {
   return (
@@ -99,6 +101,30 @@ const Contatos = () => {
                 </form>
               </div>
             </div>
+          </div>
+          <div style={{textAlign:"center", marginTop:50}}>
+          <Link
+          activeClass="active"
+          to="homeContainer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+        >
+            Clique para Voltar ao Topo
+            </Link>
+          </div>
+          <div style={{textAlign:"center", marginTop:10}}>
+          <Link
+          activeClass="active"
+          to="homeContainer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+        >
+          <img src={logoVoltar} width="50" height="50" />
+          </Link>
           </div>
         </ScrollAnimation>
       </section>

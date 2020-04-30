@@ -4,6 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Modal from "react-modal";
 import ReactPlayer from "react-player";
 import logoBiblioteca from "../images/Biblioteca.png";
+import { Link } from "react-scroll";
 
 const customStyles = {
   content: {
@@ -39,7 +40,7 @@ const Head = () => {
         class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
         id="ftco-navbar"
       >
-        <div class="container">
+        <div class="container" id="homeContainer">
           <a class="navbar-brand" href="index.html">
             Biblioteca de Aulas
           </a>
@@ -64,28 +65,73 @@ const Head = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#abountContainer" class="nav-link">
-                  Quem somos
+                <a class="nav-link">
+                  <Link
+                    activeClass="active"
+                    to="abountContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                  >
+                    Quem somos
+                  </Link>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#calendarioContainer" class="nav-link">
-                  Calendário
+                <a class="nav-link">
+                  <Link
+                    activeClass="active"
+                    to="calendarioContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                  >
+                    Calendário
+                  </Link>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#trabalhoContainer" class="nav-link">
-                  Trabalhos
+                <a class="nav-link">
+                  <Link
+                    activeClass="active"
+                    to="trabalhoContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                  >
+                    Trabalhos
+                  </Link>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#parceirosContainer" class="nav-link">
-                  Parceiros
+                <a class="nav-link">
+                  <Link
+                    activeClass="active"
+                    to="parceirosContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                  >
+                    Parceiros
+                  </Link>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#contatoContainer" class="nav-link">
-                  Contato
+                <a class="nav-link">
+                  <Link
+                    activeClass="active"
+                    to="contatoContainer"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={1000}
+                  >
+                    Contato
+                  </Link>
                 </a>
               </li>
             </ul>
@@ -116,11 +162,19 @@ const Head = () => {
             justifyContent: "center",
           }}
         >
-          <a
-            onClick={closeModal}
-            class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo"
-          >
-            <span class="ion-ios-play mr-2"></span> Quero Fazer Parte
+          <a class="btn btn-light btn.btn-outline-white-background px-4 py-3 popup-vimeo">
+            <span class="ion-ios-play mr-2"></span>
+            <Link
+              activeClass="active"
+              to="contatoContainer"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={closeModal}
+            >
+              Quero Fazer Parte
+            </Link>
           </a>
         </p>
 
@@ -177,8 +231,8 @@ const Head = () => {
               <div class="logoBiblioteca">
                 <img src={logoBiblioteca} width="300" height="250" />
               </div>
-              </ScrollAnimation>
-            </div>
+            </ScrollAnimation>
+          </div>
         </div>
       </section>
     </div>
