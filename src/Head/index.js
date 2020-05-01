@@ -36,6 +36,7 @@ const Head = () => {
 
   return (
     <div>
+    <ScrollAnimation animateIn="fadeIn" duration={4}>
       <nav
         class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
         id="ftco-navbar"
@@ -190,7 +191,6 @@ const Head = () => {
         <div class="slider-item">
           <div class="overlay"></div>
           <div class="container">
-            <ScrollAnimation animateIn="fadeIn" duration={2}>
               <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-10 text-center">
                   <h1 class="mb-4">
@@ -222,10 +222,11 @@ const Head = () => {
               <div class="logoBiblioteca">
                 <img src={logoBiblioteca} width="300" height="250" />
               </div>
-            </ScrollAnimation>
           </div>
         </div>
       </section>
+
+      </ScrollAnimation>
     </div>
   );
 };

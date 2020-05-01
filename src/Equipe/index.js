@@ -6,6 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const Card = (props) => {
   return (
     <div class="col-xs-12 col-sm-6 col-md-4">
+    <ScrollAnimation animateIn="fadeIn" duration={2}>
       <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
         <div class="mainflip">
           <div class="frontside">
@@ -70,6 +71,7 @@ const Card = (props) => {
           </div>
         </div>
       </div>
+      </ScrollAnimation>
     </div>
   );
 };
@@ -83,7 +85,7 @@ const Equipe = () => {
             <div class="container">
               <h5 class="section-title h1">Nosso Time</h5>
 
-              <div class="row justify-content-center mb-5 pb-5">
+              <div class="row justify-content-center mb-5 pb-5"> 
                 <div class="col-md-7 text-center heading-section heading-section-white ">
                   <div style={{ color: "#fff" }}>
                     Atuamos em uma escola de grande porte, que recebe nos turnos
@@ -100,37 +102,37 @@ const Equipe = () => {
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="Rafael"
                   titulo="Desenvolvedor"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas alterações avançadas no sistema, como aumentar a velocidade das animações ou monitorar o funcionamento dos aplicativos"
+                  descricao="O modo desenvolvedor do Android permite realizar diversas "
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="Mariah"
                   titulo="CO"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas alterações avançadas no sistema, como aumentar a velocidade das animações ou monitorar o funcionamento dos aplicativos"
+                  descricao="O modo desenvolvedor do Android permite realizar diversas"
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="Jessica"
                   titulo="Professora"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas alterações avançadas no sistema, como aumentar a velocidade das animações ou monitorar o funcionamento dos aplicativos"
+                  descricao="O modo desenvolvedor do Android permite realizar diversas"
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="Carla"
                   titulo="Assistente"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas alterações avançadas no sistema, como aumentar a velocidade das animações ou monitorar o funcionamento dos aplicativos"
+                  descricao="O modo desenvolvedor do Android permite realizar diversas"
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="João"
                   titulo="Teste"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas alterações avançadas no sistema, como aumentar a velocidade das animações ou monitorar o funcionamento dos aplicativos"
+                  descricao="O modo desenvolvedor do Android permite realizar diversas"
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="Brain"
                   titulo="Analista"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas alterações avançadas no sistema, como aumentar a velocidade das animações ou monitorar o funcionamento dos aplicativos"
+                  descricao="O modo desenvolvedor do Android permite realizar diversas"
                 />
               </div>
             </div>

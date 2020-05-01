@@ -1,12 +1,31 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
-import logoVoltar from "../images/voltar.png";
 import { Link } from "react-scroll";
+import emailjs from "emailjs-com";
 
 const Contatos = () => {
+  const sendEmail = (e) => {
+    emailjs.init("user_R9bVTLabKtY5OzfZCIiG0");
+    e.preventDefault();
+
+    emailjs
+      .sendForm("gmail123", "contatos", e.target, "user_R9bVTLabKtY5OzfZCIiG0")
+      .then(
+        (result) => {
+          alert("Email Enviado");
+        },
+        (error) => {
+          alert("Erro ao Enviar Email");
+        }
+      );
+  };
+
   return (
     <div>
-      <section class="ftco-section contact-section ftco-degree-bg" id="contatoContainer">
+      <section
+        class="ftco-section contact-section ftco-degree-bg"
+        id="contatoContainer"
+      >
         <ScrollAnimation animateIn="fadeIn" duration={2}>
           <div class="container bg-light">
             <div
@@ -48,10 +67,12 @@ const Contatos = () => {
               }}
             >
               <div class="col-md-6 pr-md-5">
-                <form action="#">
+                <form onSubmit={sendEmail}>
                   <div class="form-group">
                     <input
                       type="text"
+                      name="nome"
+                      id="nome"
                       class="form-control"
                       placeholder="Nome"
                     />
@@ -59,6 +80,8 @@ const Contatos = () => {
                   <div class="form-group">
                     <input
                       type="text"
+                      name="email"
+                      id="email"
                       class="form-control"
                       placeholder="E-mail"
                     />
@@ -66,12 +89,18 @@ const Contatos = () => {
                   <div class="form-group">
                     <input
                       type="text"
+                      name="telefone"
+                      id="telefone"
                       class="form-control"
                       placeholder="Telefone"
                     />
                   </div>
                   <div class="form-group">
-                    <select className="browser-default custom-select">
+                    <select
+                      className="browser-default custom-select"
+                      name="atuacao"
+                      id="atuacao  "
+                    >
                       <option>Desejo Atuar Como</option>
                       <option value="voluntariado">Voluntário</option>
                       <option value="patrocinio">Patrocínio</option>
@@ -83,8 +112,8 @@ const Contatos = () => {
                   </div>
                   <div class="form-group">
                     <textarea
-                      name=""
-                      id=""
+                      id="message_html"
+                      name="message_html"
                       cols="30"
                       rows="7"
                       class="form-control"
@@ -102,31 +131,25 @@ const Contatos = () => {
               </div>
             </div>
           </div>
-          <div style={{textAlign:"center", marginTop:50}}>
-          <Link
-          activeClass="active"
-          to="homeContainer"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={1000}
-        >
-            Clique para Voltar ao Topo
-            </Link>
-          </div>
-          <div style={{textAlign:"center", marginTop:10}}>
-          <Link
-          activeClass="active"
-          to="homeContainer"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={1000}
-        >
-          <img src={logoVoltar} width="50" height="50" />
-          </Link>
-          </div>
         </ScrollAnimation>
+        <div style={{ textAlign: "center", marginTop: 50 }}>
+          <ScrollAnimation
+            animateIn="bounce"
+            initiallyVisible={true}
+            animateOnce={true}
+          >
+            <Link
+              activeClass="active"
+              to="homeContainer"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              Clique para Voltar ao Topo
+            </Link>
+          </ScrollAnimation>
+        </div>
       </section>
     </div>
   );
