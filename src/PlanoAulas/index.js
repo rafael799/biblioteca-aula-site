@@ -12,9 +12,9 @@ const PlanoAulas = () => {
                 <h2>Plano de Aulas</h2>
                 <div class="row justify-content-center mb-5 pb-5">
                   <div style={{ color: "#fff" }}>
-                    Na seção do plano de aulas, podemos produzir um breve texto
-                    explicando resumidamente o que é e como utilizar, se tiver
-                    como encaixar lá{" "}
+                  Alguns exemplos do que fazemos em sala de aula: sempre com afeto,
+                  alegria e uma dose de ousadia nossas aulas são pensadas para a troca e valorização do
+                  aluno.{" "}
                   </div>
                 </div>
                 <p>

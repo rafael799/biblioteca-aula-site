@@ -1,7 +1,7 @@
 import React from "react";
-import logoDisciplina from '../images/sistema.png';
-import logo from '../images/network.png';
-import logo2 from '../images/network.png';
+import logoDisciplina from "../images/sistema.png";
+import logo from "../images/network.png";
+import logo2 from "../images/network.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const QuemSomos = () => {
@@ -15,17 +15,39 @@ const QuemSomos = () => {
                 <span class="subheading">Um pouco de quem somos</span>
                 <h2 class="title-about-us">Quem somos</h2>
                 <p class="subTitle-about-us">
-                Somos feitos por pessoas que acreditam que escola não é lugar de tempo vago. 
-                Ainda mais escola pública, onde a maioria dos alunos tem acesso limitado a conteúdos bacanas, 
-                onde não há estímulos customizados às suas potências e sobra escassez de afeto. A razão da nossa
-                existência é fomentar que chegue até a escola pública conteúdos importantes para a
-                vida escolar de qualquer aluno, mas que devido à desigualdade social brasileira só 
-                chegam até escolas particulares.
+                  Somos feitos por pessoas inconformadas pela desigualdade que
+                  assola a vida escolar de alunos de escolas públicas. Um desses
+                  problemas são os tempos vagos. Em escolas de grande porte esse
+                  problema toma proporções que prejudicam o desempenho do aluno
+                  bem como sua vontade de continuar estudando. Pensando em
+                  transformar este problema numa solução levamos oficinas e
+                  debates para as escolas que mais precisam, entrando em sala
+                  nestes tempos que seriam vagos. Trabalhamos com e para os
+                  alunos temas relevantes como planejamento pessoal, novo
+                  mercado de trabalho e escuta afetiva, temas que objetivam
+                  sempre destacar e mostrar aos alunos a sua própria potência.
+                </p>
+
+                <p class="subTitle-about-us">
+                Infelizmente em muitas escolas públicas do nosso país alunos têm acesso limitado a
+                conteúdos diferenciados, não há estímulos customizados às suas potências e o afeto é
+                escasso. Mesmo com esforços e dedicação de professores e diretores dessas escolas, o
+                sucateamento da educação prejudica e limita a vida de muitos jovens, ano após ano. A
+                razão da nossa existência é fomentar que chegue até a escola pública conteúdos
+                importantes para a vida escolar de qualquer aluno, mas que devido à desigualdade social
+                brasileira só chegam até escolas particulares.
                 </p>
               </ScrollAnimation>
             </div>
           </div>
-          <div class="row" style={{textAlign:"center", justifyContent:"center", alignItems:"center"}}>
+          <div
+            class="row"
+            style={{
+              textAlign: "center",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <div class="col-md-6 col-lg-3 d-flex align-self-stretch">
               <div class="media block-6 services d-block text-center">
                 <ScrollAnimation
@@ -40,8 +62,9 @@ const QuemSomos = () => {
                   <div class="media-body p-2">
                     <h3 class="heading">Justiça</h3>
                     <p class="text-about">
-                      Justiça à qualidade de seguir com firmeza apesar das
-                      circunstâncias adversas.{" "}
+                    A vida escolar de jovens pobres é injusta. Não romantizar a superação imposta
+                    por essa injustiça é a nossa forma de repara-lá, enchendo nossas aulas de afeto, escuta e
+                    informação direcionada para aqueles alunos..{" "}
                     </p>
                   </div>
                 </ScrollAnimation>
@@ -61,9 +84,10 @@ const QuemSomos = () => {
                   <div class="media-body p-2">
                     <h3 class="heading">Equidade </h3>
                     <p class="text-about">
-                      Qualquer ponto para o qual converge, ou do qual diverge,
-                      um feixe de ondas eletromagnéticas ou sonoras ou um feixe
-                      de raios luminosos.
+                    Jovens, sejam eles pobres ou ricos, possuem potências inimagináveis. A
+                    trajetória escolar no Brasil mina a potência dos jovens pobres, ao passo que a dos jovens
+                    ricos são hiperestimuladas pelas escolas particulares. Falar abertamente disso em sala de
+                    aula é necessário.
                     </p>
                   </div>
                 </ScrollAnimation>
@@ -83,14 +107,13 @@ const QuemSomos = () => {
                   <div class="media-body p-2">
                     <h3 class="heading">Liberdade </h3>
                     <p class="text-about">
-                      Que demonstra decisão ou resolução; decidido: um sujeito
-                      determinado..
+                    Qualquer jovem pode ser o que quiser, uns com mais dificuldades que outros.
+                    Juntos, desbravamos caminhos possíveis e desconstruímos os impossíveis.
                     </p>
                   </div>
                 </ScrollAnimation>
               </div>
             </div>
-
           </div>
         </div>
       </section>

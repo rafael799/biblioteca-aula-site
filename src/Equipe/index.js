@@ -27,7 +27,7 @@ const Card = (props) => {
             <div class="card">
               <div class="card-body text-center mt-4">
                 <h4 class="card-title">{props.nome}</h4>
-                <p class="card-text">{props.descricao}</p>
+                <p style={{fontSize:14}} class="card-text">{props.descricao}</p>
                 <ul class="list-inline">
                   <li class="list-inline-item">
                     <a
@@ -100,39 +100,60 @@ const Equipe = () => {
               <div class="row">
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
-                  nome="Rafael"
-                  titulo="Desenvolvedor"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas "
-                />
-                <Card
-                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
                   nome="Mariah"
-                  titulo="CO"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas"
+                  titulo=""
+                  descricao="A Mariah gosta de encantar as pessoas, levando o propósito da Biblioteca de
+                  Aulas sempre a frente. Em sala de aula se sente em casa e consegue testar novos Planos
+                  de Aulas, ouvindo sempre os alunos e a direção da escola."
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
-                  nome="Jessica"
-                  titulo="Professora"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas"
+                  nome="Cleyson"
+                  titulo=""
+                  descricao="A gestão ousada e resiliente do Cleyson alçou o projeto a incríveis voos!
+                  Além da sua atuação em sala de aula, Cleyson imprime inovação no dia a dia do projeto,
+                  sendo peça chave no planejamento e na excelência das entregas."
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
-                  nome="Carla"
-                  titulo="Assistente"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas"
+                  nome="Thamires"
+                  titulo=""
+                  descricao="Além de uma super voluntária, que não foge de nenhum assunto proposto
+                  pelos jovens, Thamires também possui aptidão em treinar e encantar novos voluntários.
+                  Uma voluntária completa!"
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
-                  nome="João"
-                  titulo="Teste"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas"
+                  nome="Shayane"
+                  titulo=""
+                  descricao="A Shay tem aquele jogo de cintura que poucos têm, e por isso seus temas são
+                  tão inovadores. Ela leva de Empreendedorismo a Neurociência, deixando os jovens
+                  vidrados e curiosos por saber mais. Está na Biblioteca de Aulas desde o início e temos
+                  muito orgulho dessa trajetória."
                 />
                 <Card
                   imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
-                  nome="Brain"
-                  titulo="Analista"
-                  descricao="O modo desenvolvedor do Android permite realizar diversas"
+                  nome="Isabelle"
+                  titulo=""
+                  descricao="Graduanda de História, Isabelle cria vínculos com cada turma, na base da
+                  transparência e do respeito. Suas aulas são lúdicas, divertidas e empoderam os jovens,
+                  que saem cheios de gás."
+                />
+                <Card
+                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  nome="Juliana"
+                  titulo=""
+                  descricao="Graduanda de Pedagogia, Juliana têm a sensibilidade aguçada, promovendo
+                  debates e reflexões que impactam os jovens a fundo. Desde o início ela se desafiou em
+                  sala de aula e todos têm ganhado com a experiência."
+                />
+                <Card
+                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  nome="Maria"
+                  titulo=""
+                  descricao="Graduanda de História, Maria é aquela voluntária que adora levar curiosidades
+                  e assuntos intrigantes, prendendo a atenção dos alunos como ninguém. Ela também ama
+                  adquirir experiência de sala de aula!"
                 />
               </div>
             </div>
