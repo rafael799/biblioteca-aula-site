@@ -72,7 +72,7 @@ const Trabalhos = () => {
               animateOut="bounceOutLeft"
             >
               <Card
-                imagem="image imageWork1"
+                imagem="image imageWork3"
                 classe="text"
                 titulo=" XIX Bienal do Livro"
                 mensagem="Este convite muito orgulhou a Biblioteca de Aulas! Levamos
