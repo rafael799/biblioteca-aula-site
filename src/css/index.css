@@ -4,13 +4,11 @@
 
 .title-about-us{
   color: #404044 !important;
-  font-family: inherit !important;
   font-size: 10 !important;
 }
 
 .subTitle-about-us {
   color: #404044 !important;
-  font-family: inherit !important;
   font-size: 10 !important;
   margin-bottom: 60px !important;
 }
@@ -25,7 +23,7 @@
 
 .text-about {
   font-size: 18px !important;
-  color: rgba(195, 195, 195, 0.8) !important;
+  color: rgba(123, 120, 120, 0.8) !important;
 }
 
 .ReactModal__Overlay {

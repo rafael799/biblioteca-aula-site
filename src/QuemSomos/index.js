@@ -1,7 +1,7 @@
 import React from "react";
-import logoDisciplina from "../images/sistema.png";
-import logo from "../images/network.png";
-import logo2 from "../images/network.png";
+import logoDisciplina from "../images/justica.png";
+import logo from "../images/equidade.png";
+import logo2 from "../images/liberdade.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const QuemSomos = () => {
@@ -28,15 +28,6 @@ const QuemSomos = () => {
                   sempre destacar e mostrar aos alunos a sua própria potência.
                 </p>
 
-                <p class="subTitle-about-us">
-                Infelizmente em muitas escolas públicas do nosso país alunos têm acesso limitado a
-                conteúdos diferenciados, não há estímulos customizados às suas potências e o afeto é
-                escasso. Mesmo com esforços e dedicação de professores e diretores dessas escolas, o
-                sucateamento da educação prejudica e limita a vida de muitos jovens, ano após ano. A
-                razão da nossa existência é fomentar que chegue até a escola pública conteúdos
-                importantes para a vida escolar de qualquer aluno, mas que devido à desigualdade social
-                brasileira só chegam até escolas particulares.
-                </p>
               </ScrollAnimation>
             </div>
           </div>

@@ -7,11 +7,8 @@ const Footer = () => {
       <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center heading-section heading-section-white">
                <h2>Nos siga nas redes sociais</h2>
-                <p>
-                 <img src={logoInstagram} width="50" height="25" />
-                </p>
             </div>
           </div>
         </div>
