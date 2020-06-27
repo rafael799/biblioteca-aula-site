@@ -43,7 +43,7 @@ const Parceiros = () => {
         id="parceirosContainer"
       >
         <div class="container">
-          <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+          <ScrollAnimation animateIn="fadeIn" duration={2}>
             <div class="row slider-text align-items-center justify-content-center">
               <div class="col-md-10 text-center">
                 <h2 class="title-about-us">Nossos Parceiros</h2>

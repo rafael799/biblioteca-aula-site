@@ -19,6 +19,11 @@
     border-color: #007b5e;
 }
 
+.txt-sobre {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
 
 section .section-title {
     text-align: center;

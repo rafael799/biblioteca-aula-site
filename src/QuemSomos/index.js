@@ -9,9 +9,10 @@ const QuemSomos = () => {
     <div>
       <section class="ftco-section " id="abountContainer">
         <div class="container">
+        <ScrollAnimation animateIn="fadeIn" duration={2}>
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-10 text-center">
-              <ScrollAnimation animateIn="fadeIn" duration={2}>
+              
                 <span class="subheading">Um pouco de quem somos</span>
                 <h2 class="title-about-us">Quem somos</h2>
                 <p class="subTitle-about-us">
@@ -27,8 +28,11 @@ const QuemSomos = () => {
                   mercado de trabalho e escuta afetiva, temas que objetivam
                   sempre destacar e mostrar aos alunos a sua própria potência.
                 </p>
-
-              </ScrollAnimation>
+            </div>
+          </div>
+          <div class="row slider-text align-items-center justify-content-center bottom25">
+            <div class="col-md-10 text-center">
+                <h2 class="title-about-us">Nossos Valores</h2>
             </div>
           </div>
           <div
@@ -41,10 +45,6 @@ const QuemSomos = () => {
           >
             <div class="col-md-6 col-lg-3 d-flex align-self-stretch">
               <div class="media block-6 services d-block text-center">
-                <ScrollAnimation
-                  animateIn="bounceInRight"
-                  animateOut="bounceOutLeft"
-                >
                   <div class="d-flex justify-content-center">
                     <div class="icon color-1 d-flex justify-content-center mb-3">
                       <img src={logoDisciplina} width="50" height="25" />
@@ -58,15 +58,10 @@ const QuemSomos = () => {
                     informação direcionada para aqueles alunos..{" "}
                     </p>
                   </div>
-                </ScrollAnimation>
               </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex align-self-stretch">
               <div class="media block-6 services d-block text-center">
-                <ScrollAnimation
-                  animateIn="bounceInRight"
-                  animateOut="bounceOutLeft"
-                >
                   <div class="d-flex justify-content-center">
                     <div class="icon color-2 d-flex justify-content-center mb-3">
                       <img src={logo} width="50" height="25" />
@@ -81,15 +76,10 @@ const QuemSomos = () => {
                     aula é necessário.
                     </p>
                   </div>
-                </ScrollAnimation>
               </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex align-self-stretch">
               <div class="media block-6 services d-block text-center">
-                <ScrollAnimation
-                  animateIn="bounceInRight"
-                  animateOut="bounceOutLeft"
-                >
                   <div class="d-flex justify-content-center">
                     <div class="icon color-3 d-flex justify-content-center mb-3">
                       <img src={logo2} width="50" height="25" />
@@ -102,10 +92,10 @@ const QuemSomos = () => {
                     Juntos, desbravamos caminhos possíveis e desconstruímos os impossíveis.
                     </p>
                   </div>
-                </ScrollAnimation>
               </div>
             </div>
           </div>
+          </ScrollAnimation>
         </div>
       </section>
     </div>

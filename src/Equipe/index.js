@@ -2,6 +2,12 @@ import React from "react";
 import "react-awesome-slider/dist/styles.css";
 import "./index.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import Mariah from "../images/Mariah-M.jpg";
+import Cleyson from "../images/Cleyson-M.jpg";
+import Isabelle from "../images/Isabelle-M.jpg";
+import Juliana from "../images/Juliana-M.jpg";
+import Thamires from "../images/Thamires-M.jpg";
+
 
 const Card = (props) => {
   return (
@@ -13,7 +19,7 @@ const Card = (props) => {
             <div class="card">
               <div class="card-body text-center">
                 <p>
-                  <img class=" img-fluid" src={props.imagem} alt="card image" />
+                  <img class="img-fluid" src={props.imagem} alt="card image" />
                 </p>
                 <h4 class="card-title">{props.nome}</h4>
                 <p class="card-text">{props.titulo}</p>
@@ -87,7 +93,7 @@ const Equipe = () => {
 
               <div class="row justify-content-center mb-5 pb-5"> 
                 <div class="col-md-7 text-center heading-section heading-section-white ">
-                  <div style={{ color: "#fff" }}>
+                  <div class="txt-sobre">
                     Atuamos em uma escola de grande porte, que recebe nos turnos
                     manhã e tarde, alunos de sexto a nono ano do ensino
                     Fundamental. Temos professores voluntários aptos a entrar em
@@ -99,7 +105,7 @@ const Equipe = () => {
               </div>
               <div class="row">
                 <Card
-                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  imagem={Mariah}
                   nome="Mariah"
                   titulo=""
                   descricao="A Mariah gosta de encantar as pessoas, levando o propósito da Biblioteca de
@@ -107,7 +113,7 @@ const Equipe = () => {
                   de Aulas, ouvindo sempre os alunos e a direção da escola."
                 />
                 <Card
-                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  imagem={Cleyson}
                   nome="Cleyson"
                   titulo=""
                   descricao="A gestão ousada e resiliente do Cleyson alçou o projeto a incríveis voos!
@@ -115,7 +121,7 @@ const Equipe = () => {
                   sendo peça chave no planejamento e na excelência das entregas."
                 />
                 <Card
-                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  imagem={Thamires}
                   nome="Thamires"
                   titulo=""
                   descricao="Além de uma super voluntária, que não foge de nenhum assunto proposto
@@ -132,7 +138,7 @@ const Equipe = () => {
                   muito orgulho dessa trajetória."
                 />
                 <Card
-                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  imagem={Isabelle}
                   nome="Isabelle"
                   titulo=""
                   descricao="Graduanda de História, Isabelle cria vínculos com cada turma, na base da
@@ -140,7 +146,7 @@ const Equipe = () => {
                   que saem cheios de gás."
                 />
                 <Card
-                  imagem="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png"
+                  imagem={Juliana}
                   nome="Juliana"
                   titulo=""
                   descricao="Graduanda de Pedagogia, Juliana têm a sensibilidade aguçada, promovendo

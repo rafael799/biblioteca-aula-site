@@ -39,6 +39,12 @@ const Contatos = () => {
               <div class="col-md-12 mb-4">
                 <h2 class="h4">Contatos</h2>
               </div>
+
+              <div class="row slider-text align-items-center justify-content-center bottom25">
+              <div class="col-md-10 text-center">
+              <span>Há diversas formas de ajudar o Biblioteca de Aulas e mudar a vida de muitos jovens. Quer começar? Entre em contato conosco, em breve retornaremos</span>
+              </div>
+            </div>
               <div class="w-100"></div>
               <div class="col-md-3">
                 <p>

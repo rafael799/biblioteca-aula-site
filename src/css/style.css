@@ -41,7 +41,7 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: Archivo;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -395,7 +395,8 @@ mark,
     content: "\2014 \00A0"; }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 40%;
+  border-radius: 200px;
   height: auto; }
 
 .img-thumbnail {
@@ -3442,6 +3443,7 @@ input[type="button"].btn-block {
       display: -ms-flexbox !important;
       display: flex !important;
       -ms-flex-preferred-size: auto;
+      font-family: sans-serif;
       flex-basis: auto; }
     .navbar-expand-lg .navbar-toggler {
       display: none; } }
@@ -7283,7 +7285,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: Archivo;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -7331,7 +7333,7 @@ h1, h2, h3, h4, h5,
     color: #f0f0f0;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #fff; }
+      color: rgba(255, 255, 255, 0.5); }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -7368,7 +7370,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
     border-color: #78d5ef; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: #fff }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -8257,7 +8259,7 @@ textarea.form-control {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: rgba(0, 0, 0, 0.2); }
+  color: rgba(29, 24, 24, 0.8); }
 
 .heading-section h2 {
   font-size: 34px;
@@ -8645,7 +8647,7 @@ textarea.form-control {
       top: .1em;
       left: 0; }
     .block-8 .accordion-item .heading > a[aria-expanded="true"]:before {
-      font-family: 'icomoon';
+      font-family: Archivo;
       position: absolute;
       content: "\e316";
       -webkit-transition: .3s all ease;
@@ -8657,7 +8659,7 @@ textarea.form-control {
     .block-8 .accordion-item .heading > a[aria-expanded="false"]:before {
       content: "\e313";
       color: #ccc;
-      font-family: 'icomoon';
+      font-family: Archivo;
       position: absolute;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;

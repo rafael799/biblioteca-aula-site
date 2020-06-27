@@ -36,16 +36,12 @@ const Head = () => {
 
   return (
     <div>
-    <ScrollAnimation animateIn="fadeIn" duration={4}>
+    <ScrollAnimation animateIn="fadeIn" duration={2}>
       <nav
         class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
         id="ftco-navbar"
       >
         <div class="container" id="homeContainer">
-          <a class="navbar-brand" href="index.html">
-            Biblioteca de Aulas
-          </a>
-
           <button
             class="navbar-toggler"
             type="button"
